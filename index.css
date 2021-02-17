@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -45,4 +47,32 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+} 
+/* reset end */
+
+*{
+    box-sizing: border-box;
 }
+html {
+    font-family:'Roboto Mono', monospace;
+    font-size: 62.5%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.plan-color {
+    background-color: #FF764E;
+}
+.learn-color {
+    background-color: #5ED3EB;
+}
+.involved-color {
+    background-color: #FFCD69;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+
+
