@@ -50,14 +50,34 @@ table {
 } 
 /* reset end */
 
-*{
+* {
     box-sizing: border-box;
 }
+
 html {
     font-family:'Roboto Mono', monospace;
     font-size: 62.5%;
-    width: 50%;
     margin: 0 auto;
+}
+
+header {
+    margin: 5% 5%;
+}
+
+#header-image {
+    display:inline-block;
+    width: 20%;
+}
+
+#header-image img {
+    border-radius: 50%;
+    width: 90%;
+    margin: 0 auto;
+}
+ #header-text {
+    display: inline-block;
+    width: 75%;
+    padding: 0 5%;
 }
 
 .plan-color {
@@ -69,16 +89,17 @@ html {
 .involved-color {
     background-color: #FFCD69;
 }
-nav {
-    width: 100%;
+nav ul {
+    margin:0 auto;
+    
 }
 
 nav ul li {
     display: inline-block;
     border-radius: 10px;
-    width: 16%;
+    width: 15%;
     /* height: 10%; */
-    margin: 3% 8%;
+    margin: 3% 6%;
     padding: 1% 2%;
     color: white;
     text-align: center;
@@ -87,13 +108,30 @@ nav ul li {
 h1{
     font-family: 'Chelsea Market', cursive;
     font-size: 3rem;
+    /* margin: 0 auto; */
+    margin-bottom: 1.5rem;
+    
+}
+
+h4 {
+    margin: 1.5rem;
+}
+
+#second-h4 {
+    width: 60%;
+    text-align: center;
+    /* margin: 0 auto; */
 }
 
 #instruction {
     background-color:#DDB9A3;
-    padding: 2% 5%;
     color: white;
+    margin: 0 5%;
+}
 
+#instruction p {
+    padding: 1% 2%;
+    text-align: center;
 }
 
 footer {
@@ -101,6 +139,40 @@ footer {
 }
 
 span {
-    font-weight: bold;
+    font-weight:bolder;
 }
+
+section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.fires img {
+    width: 40%;
+    display: block;
+    margin: 5% auto;   
+}
+
+.reservations img{
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+}
+
+section p {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+footer {
+    margin: 5% 0;
+}
+
+#footer-image {
+    height: 20rem;
+    overflow: hidden;
+   
+}
+
 
