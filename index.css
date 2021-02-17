@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -72,6 +72,10 @@ html {
 
 nav ul li {
     display: inline-block;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
 }
 
 
