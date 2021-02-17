@@ -78,5 +78,13 @@ h1{
     font-family: 'Chelsea Market', cursive;
 }
 
+#instruction {
+    background-color:#DDB9A3;
+    padding: 2% 5%;
 
+}
+
+footer {
+    background-color: #F9E7DC;
+}
 
