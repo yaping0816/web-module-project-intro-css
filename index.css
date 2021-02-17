@@ -56,7 +56,7 @@ table {
 html {
     font-family:'Roboto Mono', monospace;
     font-size: 62.5%;
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -69,9 +69,19 @@ html {
 .involved-color {
     background-color: #FFCD69;
 }
+nav {
+    width: 100%;
+}
 
 nav ul li {
     display: inline-block;
+    border-radius: 10px;
+    width: 16%;
+    /* height: 10%; */
+    margin: 3% 8%;
+    padding: 1% 2%;
+    color: white;
+    text-align: center;
 }
 
 h1{
@@ -81,6 +91,7 @@ h1{
 #instruction {
     background-color:#DDB9A3;
     padding: 2% 5%;
+    color: white;
 
 }
 
