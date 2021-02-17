@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* reset end */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family:'Roboto Mono', monospace;
+    font-size: 62.5%;
+    margin: 0 auto;
+}
+
+header {
+    margin: 5% 5%;
+}
+
+#header-image {
+    display:inline-block;
+    width: 20%;
+}
+
+#header-image img {
+    border-radius: 50%;
+    width: 90%;
+    margin: 0 auto;
+}
+ #header-text {
+    display: inline-block;
+    width: 75%;
+    padding: 0 5%;
+}
+
+.plan-color {
+    background-color: #FF764E;
+}
+.learn-color {
+    background-color: #5ED3EB;
+}
+.involved-color {
+    background-color: #FFCD69;
+}
+nav ul {
+    margin:0 auto;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    border-radius: 10px;
+    width: 15%;
+    /* height: 10%; */
+    margin: 3% 6%;
+    padding: 1% 2%;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 3rem;
+    /* margin: 0 auto; */
+    margin-bottom: 1.5rem;
+    
+}
+
+h4 {
+    margin: 1.5rem;
+}
+
+#second-h4 {
+    width: 60%;
+    text-align: center;
+    /* margin: 0 auto; */
+}
+
+#instruction {
+    background-color:#DDB9A3;
+    color: white;
+    margin: 0 5%;
+}
+
+#instruction p {
+    padding: 1% 2%;
+    text-align: center;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+span {
+    font-weight:bolder;
+}
+
+section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.fires img {
+    width: 40%;
+    display: block;
+    margin: 5% auto;   
+}
+
+.reservations img{
+    width: 40%;
+    display: block;
+    margin: 5% auto;
+}
+
+section p {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+footer {
+    margin: 5% 0;
+}
+
+#footer-image {
+    height: 20rem;
+    overflow: hidden;
+   
+}
+
+
