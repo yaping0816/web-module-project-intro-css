@@ -8,51 +8,55 @@
 <body>
   <header>
     <nav>
-      <ul>
-        <li class="plan-color">Plan your Visit</li>
-        <li class='learn-color'>Learn About the Park</li>
-        <li class='involved-color'>Get Involved</li>
-      </ul>
+        <a class='orange' href="#">Plan your<br> Visit</a>
+        <a class='blue' href="#">Learn About<br> the Park</a>
+        <a class='yellow' href="#">Get<br> Involved</a>
+        <!-- use a <br> when a need to break lines of text within the same element, they should never used to apply space, use <margin>/<padding> instead-->
     </nav>
-    <div id='header-image'> 
-      <img src='./assets/header_img.jpg' alt='header image'/>
-      
-    </div> 
-    <div id='header-text'>
-      <h1> Yosemite Park Guide</h1> 
-      <h4 id='first-h4'>Come explore California’s beautiful wilderness.</h4>
-      <h4 id='second-h4'>Always open. Reservations are not available or required to enter the park.</h4>
-    </div>  
   </header>
 
-  <main>
-    <div id='instruction'>
-      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
-      
-      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
-    </div>  
-    <section class='fires'>
-      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" />
-      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span>current fire restrictions</span>.</p>
-    </section>
-    <section class='reservations'>
-      <img src="https://image.flaticon.com/icons/svg/820/820374.svg" />
-      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span>park entrance fee</span> upon arrival (there's no need to pay it in advance).</p>
-    </section> 
-  </main>
-
-  <footer>  
-    <div id='footer-image'>
-      <img src='./assets/footer_img.jpg' alt='footer image'/>
-    
+  <section class='top'>
+    <div class='left'> 
+      <div class='imgContainer'>
+        <img src='./assets/header_img.jpg' alt='header image'/>
+      </div>
     </div> 
+    <div class='right'>
+      <div class='text'>
+      <h1> Yosemite Park Guide</h1> 
+      <h2 id='first-h4'>Come explore California’s beautiful wilderness.</h2>
+      <p id='second-h4'>Always open. Reservations are not available or required to enter the park.</p>
+      </div>
+    </div>  
+  </section>
+
+  <section class='info'>
+      <p>Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra.</p>
+      <p>First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.</p>
+  </section>
+
+  <section class='visitInfo'>
+    <div class='campfire'>
+      <img src="https://image.flaticon.com/icons/svg/2979/2979348.svg" />
+      <p>Fire is a natural and essential part of Yosemite. We manage fire carefully and study how it interacts with the park’s ecosystems. This blog provides updates about fires in Yosemite. Check for <span class='bold'>current fire restrictions</span>.</p>
+    </div>
+    <div class='camper'>
+      <img src="https://image.flaticon.com/icons/svg/820/820374.svg" />
+      <p>We strongly recommend that you make reservations for lodging, camping, and backpacking. You can pay the <span class="bold
+        ">park entrance fee</span> upon arrival (there's no need to pay it in advance).</p>
+    </div>
+  </section> 
+ 
+  <section class="here-image">
+      <!--This is going to be empty for my image  -->
+  </section>
+  <footer>  
     <nav>
-      <ul>
-        <li class="plan-color">Plan your Visit</li>
-        <li class='learn-color'>Learn about the Park</li>
-        <li class='involved-color'>Get Involved</li>
-      </ul>
+      <a class='orange' href="#">Plan your<br> Visit</a>
+      <a class='blue' href="#">Learn About<br> the Park</a>
+      <a class='yellow' href="#">Get<br> Involved</a>
+      <!-- use a <br> when a need to break lines of text within the same element, they should never used to apply space, use <margin>/<padding> instead-->
     </nav>
-  </footer>    
+  </footer>
 </body>
 </html>
